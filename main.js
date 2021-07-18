@@ -82,3 +82,8 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== REDUCE SIZE AND PRINT ON A4 PAPER ====================*/
+function scaleCv(){
+  document.body.classList.add('scale-cv')
+}
