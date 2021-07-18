@@ -87,3 +87,15 @@ themeButton.addEventListener('click', () => {
 function scaleCv(){
   document.body.classList.add('scale-cv')
 }
+
+/*==================== REMOVE SIZE WHEN CV IS DOWNLOADED ====================*/
+function removeScale(){
+  document.body.classList.remove('scale-cv')
+}
+
+/*==================== GENERATE PDF ====================*/
+let resumeButton = document.getElementById('resume-button')
+
+resumeButton.addEventListener('click', () => {
+  scaleCv()
+})
