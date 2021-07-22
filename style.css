@@ -175,8 +175,6 @@ body.scale-cv{
   margin-bottom: var(--mb-1);
 }
 
-.scale-cv .
-
 body{
   margin: 0 0 var(--header-height) 0;
   padding: 0;
@@ -549,7 +547,7 @@ img{
     display: grid;
     grid-template-columns: .5fr 1fr;
     background-color: var(--container-color);
-    box-shadow: 0 0 8px rgba(13,12,12,.15)
+    box-shadow: 0 0 8px rgba(13,12,12,.15);
   }
 
   .resume__left{
