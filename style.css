@@ -551,7 +551,7 @@ img{
   }
 
   .resume__left{
-    background-color: var(--container-color);
+    background-color: var(--container-color-alt);
   }
 
   .resume__left,
